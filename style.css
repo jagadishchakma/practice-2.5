@@ -1,0 +1,212 @@
+/*  global css started */
+*{
+    padding: 0;
+    margin: 0;
+}
+/*  global css ended */
+
+
+/*  header css started */
+.header{
+    background-image: url("./images/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    padding: 30px 100px;
+}
+
+/*  header css ended */
+
+/*  navbar css started */
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+nav ul li{
+    margin-left: 20px;
+}
+nav ul li a{
+    color: rgba(251, 157, 92, 1);
+    text-decoration: none;
+}
+/*  navbar css ended */
+
+/*  slogan-us css started */
+.slogan-us{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.slogan-us h3{
+    color: rgba(251, 157, 92, 1);
+}
+.slogan-us h1{
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+}
+.slogan-us .slogan-intro{
+    width: 400px;
+}
+.slogan-us button{
+    background-color: rgba(251, 157, 92, 1);
+    padding: 5px;
+    border-radius: 3px;
+    border: none;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+.slogan-us button:hover{
+    cursor: pointer;
+}
+.slogan-profile{
+    position: relative;
+}
+
+/*  slogan-us css ended */
+
+/*  security logo section started */
+.security-logo ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    background-color: rgb(223, 235, 241);
+    margin: 0px 50px;
+    padding:10px 50px;
+}
+/*  security logo section ended */
+
+/*  security section started */
+.services{
+    margin: 100px;
+}
+.service-title{
+    width: 700px;
+    margin: auto;
+}
+.service-title h2{
+    text-align: center;
+    font-size: 30px;
+}
+.service-title p{
+    text-align: center;
+}
+
+.service-division div{
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+}
+.service-division img{
+    width: 50px;
+    margin: auto;
+    display: block;
+}
+.service-division h3{
+    text-align: center;
+}
+.service-division p{
+    text-align: center;
+}
+.service-division{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+/*  security section ended */
+
+/*  contact section started */
+.contact{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+.contact div:last-child{
+    margin-left: 50px;
+}
+.contact h4{
+    width: 50px;
+    background-color: rgba(13, 202, 240, 1);
+    padding: 5px;
+    border-radius: 2px;
+}
+.contact .contact-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+.contact .contact-title span{
+    color: rgba(251, 157, 92, 1)
+}
+.contact .call{
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    font-size: 25px;
+}
+/*  contact section ended */
+
+/*  footer section started */
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    background-color: black;
+    color: white
+}
+footer > div{
+    width: 20%;
+    padding: 20px;
+}
+footer div:first-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer #foot-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: rgba(251, 157, 92, 1);
+    font-weight: bold;
+}
+footer .notification{
+    color: rgba(251, 157, 92, 1);
+    font-weight: bold;
+}
+footer input[type="email"]{
+    padding: 10px;
+}
+footer p{
+    text-align: center;
+}
+
+footer ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer h3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+footer li span{
+    color: rgba(251, 157, 92, 1);;
+}
+/*  footer section ended */
+
+
+
